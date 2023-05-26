@@ -24,7 +24,8 @@
       },
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.afnan1821.letter"
     },
     "web": {
       "favicon": "./assets/favicon.png"
