@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "app",
-    "slug": "app",
+    "slug": "letter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,27 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a111612d-7f69-4650-830a-0f99c7920d41"
+      }
+    },
+    "owner": "afnan1821"
   }
 }
